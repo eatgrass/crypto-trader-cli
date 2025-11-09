@@ -8,8 +8,11 @@
 
 ## Features
 
-- Run directly in your command line interface (CLI)
-- **Minimal configuration** – Only requires setting your **API key** and **system prompt**
+- 🖥 Run directly in your command line interface (CLI)
+- ⚙️ **Minimal configuration** – Only requires setting your **API key** and **system prompt**
+- 📈 **Market data from OKX** – Get up‑to‑date price and analysis via OKX APIs
+- Lightweight and easy to customize
+
 ## Quick Start
 
 1. Clone this project
@@ -29,7 +32,7 @@
    vim .env
    ```
 
-🐋 Example: Using DeepSeek
+   🐋 Example: Using DeepSeek
    To run the project using DeepSeek, set your environment like this:
 
    ```bash
