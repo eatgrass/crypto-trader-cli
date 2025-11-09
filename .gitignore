@@ -1,0 +1,18 @@
+node_modules/
+build/
+
+# Logs
+logs/
+*.log
+
+prompts/
+
+# Misc
+.DS_Store
+
+# Local env files
+.env
+.env.*
+!.env.example
+!prompts/example.md
+
