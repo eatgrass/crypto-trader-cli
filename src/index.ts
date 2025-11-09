@@ -41,7 +41,7 @@ let spot: Instrument[] = []
 let swap: Instrument[] = []
 
 console.clear()
-intro(`OKX AI Trader`)
+intro(`Crypto AI Trader`)
 spin.start('Loading OKX Instruments...')
 spot = await okx.getInstruments({
   instType: 'SPOT',
@@ -51,7 +51,7 @@ swap = await okx.getInstruments({
 })
 
 spin.stop(
-  `Loaded ${kleur.green(spot.length)} SPOT Instruments and ${kleur.green(swap.length)} SWAP Instruments`
+  `Loaded ${kleur.green(spot.length)} SPOT Instruments and ${kleur.green(swap.length)} SWAP Instruments From OKX`
 )
 
 const symbol = (await text({
@@ -60,7 +60,7 @@ const symbol = (await text({
   initialValue: 'BTC-USDT-SWAP',
   validate(value: string) {
     if (!value) {
-      return 'Please enter a symbol:'
+      return 'Enter a symbol:'
     }
 
     if (
