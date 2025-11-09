@@ -1,5 +1,8 @@
 # Crypto Trader CLI
 
+<img width="4000" height="2496" alt="image" src="https://github.com/user-attachments/assets/af369ef5-e159-405d-b725-d8782c434214" />
+
+
 🚀 A command-line trading assistant that brings AI-powered cryptocurrency market analysis to your terminal.
 
 > 🧪 **Note: 
