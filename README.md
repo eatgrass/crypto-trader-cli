@@ -13,9 +13,9 @@
 ## Quick Start
 
 1. Clone this project
-```bash
-git clone git@github.com:eatgrass/crypto-trader-cli.git
-```
+   ```bash
+   git clone git@github.com:eatgrass/crypto-trader-cli.git
+   ```
 
 2. Install dependencies:
    ```bash
@@ -29,9 +29,24 @@ git clone git@github.com:eatgrass/crypto-trader-cli.git
    vim .env
    ```
 
+🐋 Example: Using DeepSeek
+   To run the project using DeepSeek, set your environment like this:
+
+   ```bash
+   OPEN_AI_API_KEY=YOUR_DEEPSEEK_API_KEY
+   OPEN_AI_MODEL=deepseek-reasoner
+   OPEN_AI_BASE_URL=https://api.deepseek.com
+   ```
+
 4. Run and start analyzing:
    ```bash
    npm run build
    npm run start
    ```
+
+---
+
+⚙️ Custom Your System Prompt 
+
+You can create your own system prompt in the `prompts` directory.
 

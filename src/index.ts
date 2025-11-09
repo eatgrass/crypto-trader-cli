@@ -39,6 +39,8 @@ if(prompts.length === 0) {
 
 let spot: Instrument[] = []
 let swap: Instrument[] = []
+
+console.clear()
 intro(`OKX AI Trader`)
 spin.start('Loading OKX Instruments...')
 spot = await okx.getInstruments({
